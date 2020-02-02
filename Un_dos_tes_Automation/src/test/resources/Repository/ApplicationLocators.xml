@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This file holds all the unique identifiers pertaining to elements on 
+	different pages of Un dos tres web application -->
+<Locators>
+	<RechargeCellularPage>
+		<rechargeLabel><![CDATA[//h1[@text='Recarga Celular']]]></rechargeLabel>
+		<operatorTextBox><![CDATA[//input[@suggest='mobile-operator']]]></operatorTextBox>
+		<operatorSelectionDropdown><![CDATA[//li[@data-show='operatorName']]]></operatorSelectionDropdown>
+		<mobileNumberTextBox><![CDATA[//input[@oninput='checkMob(this)']]]></mobileNumberTextBox>
+		<rechargeAmountTextBox><![CDATA[//input[@suggest='mobile-operator_amount']]]></rechargeAmountTextBox>
+		<rechargeAmountDropdown><![CDATA[//li[@data-cat='Recarga Saldo']//b[.='dollarAmount']]]></rechargeAmountDropdown>
+		<siguienteButton><![CDATA[(//button[contains(@class,'buttonRecharge')])[1]]]></siguienteButton>		
+	</RechargeCellularPage>
+	
+	<PaymentPage>
+		<messageLabel><![CDATA[//span[contains(.,'customerNumber')]]]></messageLabel>
+		<selectCardLabel><![CDATA[//a[contains(@class,'select-card')]]]></selectCardLabel>
+		<cardNameTextBox><![CDATA[//label[.='Nombre como aparece en la tarjeta']//../input]]></cardNameTextBox>
+		<cardNumberTextBox><![CDATA[(//input[@name='cardno'])[2]]]></cardNumberTextBox>
+		<expMonthTextBox><![CDATA[(//input[contains(@class,'expmonth')])[2]]]></expMonthTextBox>
+		<expYearTextBox><![CDATA[(//input[contains(@class,'expyear')])[2]]]></expYearTextBox>
+		<cvvTextBox><![CDATA[(//input[@name='cvvno'])[2]]]></cvvTextBox>
+		<emailTextBox><![CDATA[//input[@class='form-control email']]]></emailTextBox>
+		<paymentButton><![CDATA[paylimit]]></paymentButton>
+		<userNameTextBox><![CDATA[usrname]]></userNameTextBox>
+		<pwdTextBox><![CDATA[psw]]></pwdTextBox>
+		<captchaCheckBox><![CDATA[//div[@class='rc-anchor-logo-img rc-anchor-logo-img-portrait']]]></captchaCheckBox>
+		<loginButton><![CDATA[loginBtn]]></loginButton>
+		<errorLabel><![CDATA[add_err]]></errorLabel>
+	</PaymentPage>
+</Locators>
