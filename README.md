@@ -17,3 +17,6 @@ Repository folder in an ApplicationLocators.xml file.
 After importing the automation code, navigate to the test package under src/test/java in order to access the sample automation script.
 Right click the automation script and run as TestNG in order execute the flow on the application.
 
+# Browser drivers
+
+This folder holds the driver executables required to launch automation code on different browsers. The driver script for same lies in utilities class under /src/test/java.
